@@ -56,7 +56,7 @@ export const baseApi = createApi({
 
 interface TErrorData {
    message?: string;
-   errorDetails?: any;
+   error?: any;
 }
 
 interface TReduxRtqError {

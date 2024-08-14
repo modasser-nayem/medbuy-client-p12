@@ -14,9 +14,8 @@ export type TInputType =
    | "week"
    | "color";
 
-export type TPagination = {
-   page?: number;
-   limit?: number;
-   sortBy?: string;
-   sortOrder?: "asc" | "desc";
+export type IMeta = {
+   page: number;
+   limit: number;
+   total: number;
 };
